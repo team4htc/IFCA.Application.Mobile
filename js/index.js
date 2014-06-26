@@ -129,10 +129,3 @@ $("#login").click(function () {
 });
 
 
-
-navigator.Backbutton.goHome(function () {
-    alert("babai");
-    console.log('success')
-}, function () {
-    console.log('fail')
-});
