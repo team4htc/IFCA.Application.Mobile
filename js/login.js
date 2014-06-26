@@ -6,14 +6,24 @@ $(document).one('pagecreate', function () {
    
     $("#index").click(function () {
         $.mobile.navigate("index.html", { transition: "slide", info: "info about the #bar hash" });
+       // navigator.app.exitApp();
     });
 
 
 
-    navigator.Backbutton.goHome(function () {
-        alert("babai");
-        console.log('success')
-    }, function () {
-        console.log('fail')
-    });
+    document.addEventListener("deviceready", onDeviceReady, false);
+
+    function onDeviceReady() {
+        document.addEventListener("backbutton", function (e) {
+
+            if ($.mobile.activePage.is('#loginpage')) {
+                e.preventDefault();
+                navigator.app.exitApp();
+            }
+            else {
+                alert("dsadsa");
+                navigator.app.backHistory()
+            }
+        }, false);
+    }
 });
