@@ -128,4 +128,3 @@ $("#login").click(function () {
     $.mobile.navigate("login.html", { transition: "slide", info: "info about the #bar hash" });
 });
 
-
