@@ -16,6 +16,8 @@ $(document).one('pagecreate', function () {
     function onDeviceReady() {
         document.addEventListener("backbutton", function (e) {
 
+            alert("back button");
+
             if ($.mobile.activePage.is('#loginpage')) {
                 e.preventDefault();
                 navigator.app.exitApp();
