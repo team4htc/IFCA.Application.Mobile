@@ -127,3 +127,12 @@ var app = {
 $("#login").click(function () {
     $.mobile.navigate("login.html", { transition: "slide", info: "info about the #bar hash" });
 });
+
+
+
+navigator.Backbutton.goHome(function () {
+    alert("babai");
+    console.log('success')
+}, function () {
+    console.log('fail')
+});
