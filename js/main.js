@@ -104,5 +104,28 @@ $(document).one('pagecreate', function () {
                 navigator.app.backHistory();
             }
         }, false);
+
+
+        document.addEventListener("menubutton", function (e) {
+
+            alert("menupage");
+
+           // navigator.app.backHistory();
+            //if ($.mobile.activePage.is('#homepage')) {
+            //    e.preventDefault();
+
+            //    if (confirm('Are you sure you want to exit the app?')) {
+            //        navigator.app.exitApp();
+            //    } else {
+            //        // Do nothing!
+            //    }
+
+            //}
+            //else {
+            //    alert("back to history");
+            //    navigator.app.backHistory();
+            //}
+        }, false);
+
     }
 });
