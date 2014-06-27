@@ -1,0 +1,30 @@
+﻿<div id="template" data-role="page" data-theme="a">
+
+    <!--data-add-back-btn="true"-->
+    <div data-role="header">
+        <a id="btnBack" href="#" class="ui-btn ui-corner-all ui-icon-carat-l ui-btn-icon-notext iconstyle">Power Icon</a>
+
+        <h1>Template page</h1>
+
+        <a id="btnHome" href="index.html" data-transition="slide" class="ui-btn ui-corner-all ui-icon-home ui-btn-icon-notext iconstyle">Gear Icon</a>
+        
+        <div class="subtitle">Welcome, to IFCA template</div>
+    </div>
+
+    <div data-role="content" data-theme="a">
+       <input id="btnClickMe" type="button" value="Click me" />
+    </div>
+
+    <!--Please seperate the js code into different js file so that can take advantage of browser caching for faster loading time-->
+    <!--<script src="js/template.js"></script>-->
+    <script type="text/javascript">
+        $(document).one('pagecreate', function () {
+            $("#btnClickMe").click(function () {
+                $.mobile.navigate("index.html", { transition: "flip", info: "info about the #bar hash" });
+            });
+
+        });
+
+    </script>
+
+</div>

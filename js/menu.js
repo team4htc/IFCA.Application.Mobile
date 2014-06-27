@@ -1,4 +1,3 @@
-﻿
-$(document).one('pagecreate', function () {
+﻿$(document).one('pagecreate', function () {
     alert("dsadsa");
 });

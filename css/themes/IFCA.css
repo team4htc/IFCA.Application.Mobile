@@ -741,3 +741,120 @@ button[disabled],
 	outline-style: auto;
 }
 			
+
+/*=======================================My Css=============================*/
+.ui-page-theme-a .morning .ui-btn-active {border-color:#3388cc ; border:none;color:#ffffff ; margin:2px;
+    background-color:rgba(0,0,0,.70) !important;
+	-webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius: 8px;
+text-align:center; font-size:11px;
+padding:20px 10px;
+background: transparent url('../images/icon/morning-over.png') center 10px no-repeat; padding:54px 10px 20px; color:#FF0; text-shadow:none; min-width:55px;}
+	
+	.ui-page-theme-a .morning .ui-radio-off{background: transparent url('../images/icon/morning.png') center 10px no-repeat;border-color:#3388cc ; border:none;color:#ffffff ; margin:2px; 
+    background-color:rgba(0,0,0,.40) !important;
+	-webkit-border-radius: 8px !important;
+-moz-border-radius: 8px !important;
+border-radius: 8px !important;
+text-align:center; font-size:11px;
+padding:54px 10px 20px; text-shadow:none; min-width:55px;}
+
+.ui-page-theme-a .noon .ui-btn-active {border-color:#3388cc ; border:none;color:#ffffff ; margin:2px;
+    background-color:rgba(0,0,0,.70) !important;
+	-webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius: 8px;
+text-align:center; font-size:11px;
+padding:20px 10px;
+background: transparent url('../images/icon/noon-over.png') center 10px no-repeat; padding:54px 10px 20px; color:#FF0; text-shadow:none; min-width:55px;}
+	
+	.ui-page-theme-a .noon .ui-radio-off{background: transparent url('../images/icon/noon.png') center 10px no-repeat;border-color:#3388cc ; border:none;color:#ffffff ; margin:2px; 
+    background-color:rgba(0,0,0,.40) !important;
+	-webkit-border-radius: 8px !important;
+-moz-border-radius: 8px !important;
+border-radius: 8px !important;
+text-align:center; font-size:11px;
+padding:54px 10px 20px; text-shadow:none; min-width:55px;}
+
+.ui-page-theme-a .night .ui-btn-active {border-color:#3388cc ; border:none;color:#ffffff ; margin:2px;
+    background-color:rgba(0,0,0,.70) !important;
+	-webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius: 8px;
+text-align:center; font-size:11px;
+padding:20px 10px;
+background: transparent url('../images/icon/night-over.png') center 10px no-repeat; padding:54px 10px 20px; color:#FF0; text-shadow:none; min-width:55px;}
+	
+	.ui-page-theme-a .night .ui-radio-off{background: transparent url('../images/icon/night.png') center 10px no-repeat;border-color:#3388cc ; border:none;color:#ffffff ; margin:2px; 
+    background-color:rgba(0,0,0,.40) !important;
+	-webkit-border-radius: 8px !important;
+-moz-border-radius: 8px !important;
+border-radius: 8px !important;
+text-align:center; font-size:11px;
+padding:54px 10px 20px; text-shadow:none;min-width:55px;}
+
+.ui-page-theme-a .hole .ui-btn-active {border-color:#3388cc ; border:none;color:#ffffff ; margin:2px;
+    background-color:rgba(0,0,0,.70) !important;
+	-webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius: 8px;
+text-align:center; font-size:11px;
+background: transparent url('../images/icon/hole-hover.png') 4px 6px no-repeat; background-size:30px; 
+padding:14px 10px 14px 32px; color:#FF0; text-shadow:none; min-width:40px;}
+	
+	.ui-page-theme-a .hole .ui-radio-off{background: transparent url('../images/icon/hole.png') 4px 6px no-repeat;  background-size:30px; border-color:#3388cc ; border:none;color:#ffffff ; margin:2px; 
+    background-color:rgba(0,0,0,.40) !important;
+	-webkit-border-radius: 8px !important;
+-moz-border-radius: 8px !important;
+border-radius: 8px !important;
+text-align:center; font-size:11px;
+padding:14px 10px 14px 32px;text-shadow:none; min-width:40px; }
+
+
+@media only screen and (max-width : 360px) {
+	.ui-page-theme-a .hole .ui-btn-active {border-color:#3388cc ; border:none;color:#ffffff ; margin:2px;
+    background-color:rgba(0,0,0,.70) !important;
+	-webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius: 8px;
+text-align:center; font-size:11px;
+background: transparent url('../images/icon/hole-hover.png') 4px 6px no-repeat; background-size:30px; 
+padding:14px 10px 14px 32px; color:#FF0; text-shadow:none; min-width:40px; float:left;}
+	
+	.ui-page-theme-a .hole .ui-radio-off{background: transparent url('../images/icon/hole.png') 4px 6px no-repeat;  background-size:30px; border-color:#3388cc ; border:none;color:#ffffff ; margin:2px; 
+    background-color:rgba(0,0,0,.40) !important;
+	-webkit-border-radius: 8px !important;
+-moz-border-radius: 8px !important;
+border-radius: 8px !important;
+text-align:center; font-size:11px;
+padding:14px 10px 14px 32px;text-shadow:none; min-width:40px;}
+.dline{display:none;}
+}
+
+
+/* Header */
+.ui-bar-a,.ui-page-theme-a .ui-bar-inherit,html .ui-bar-a .ui-bar-inherit,html .ui-body-a .ui-bar-inherit,html body .ui-group-theme-a .ui-bar-inherit{/* IE10 Consumer Preview */ 
+background-image: -ms-linear-gradient(bottom, #111111 0%, #1D2C44 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(bottom, #111111 0%, #1D2C44 100%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(bottom, #111111 0%, #1D2C44 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #111111), color-stop(1, #1D2C44));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(bottom, #111111 0%, #1D2C44 100%);
+
+/* W3C Markup, IE10 Release Preview */ 
+background-image: linear-gradient(to top, #111111 0%, #1D2C44 100%);
+border-color:#ddd;color:#fff;text-shadow:none;font-weight:700}
+
+
+
+.iconstyle{background:transparent; border:none;}
+
+.subtitle{background:#0a5e9b; text-align:center; color:#ffffff; padding-top:0.5em; padding-bottom:0.5em;}

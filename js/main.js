@@ -58,3 +58,51 @@ if (localStorage.getItem("Token") != "") {
         }
     });
 }
+
+
+
+$(document).one('pagecreate', function () {
+
+    $("#btnBack").click(function () {
+        alert("back to previous page");
+        navigator.app.backHistory();
+    });
+    $("#btnPower").click(function () {
+
+        if (confirm('Are you sure you want to exit the app?')) {
+            alert("Off the app");
+            navigator.app.exitApp();
+        } else {
+            // Do nothing!
+        }
+
+       
+    });
+
+
+
+
+    document.addEventListener("deviceready", onDeviceReady, false);
+
+    function onDeviceReady() {
+        document.addEventListener("backbutton", function (e) {
+
+            //alert("back button");
+
+            if ($.mobile.activePage.is('#homepage')) {
+                e.preventDefault();
+
+                if (confirm('Are you sure you want to exit the app?')) {
+                    navigator.app.exitApp();
+                } else {
+                    // Do nothing!
+                }
+                
+            }
+            else {
+                alert("back to history");
+                navigator.app.backHistory();
+            }
+        }, false);
+    }
+});
