@@ -63,10 +63,10 @@ if (localStorage.getItem("Token") != "") {
 
 $(document).one('pagecreate', function () {
 
-    $("#btnBack").click(function () {
-        alert("back to previous page");
-        navigator.app.backHistory();
-    });
+    //$("#btnBack").click(function () {
+    //    alert("back to previous page");
+    //    navigator.app.backHistory();
+    //});
     $("#btnPower").click(function () {
 
         if (confirm('Are you sure you want to exit the app?')) {
